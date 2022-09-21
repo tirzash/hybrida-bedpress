@@ -10,6 +10,7 @@ Gå sammen to og to og start på oppgavene under. Gjør gjerne oppgavene sammen,
 
 - Sjekk at du er logget inn i GitHub og trykk på `fork` øverst i høyre hjørne.
 - På siden som kommer opp, skriv inn et navn for repoet, for eksempel `hybrida-bedpres`
+- Pass på at "Copy master branch only" er huket av
 - Trykk på `Create fork`
 
 Nå har person 1 laget en kopi/fork av repoet i sin GitHub. Neste steg er at Person 1 gir sin kjære samarbeidspartner tilgang til repoet. Dette gjøres ved å:
