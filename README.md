@@ -27,7 +27,7 @@ Person 2 skal nå ha fått en mail med invitasjon til å bli collaborator i repo
 **Både Person 1 og Person 2:**
 
 - Åpne terminalen på hver deres maskin og naviger til Desktop.
-- Clone repoet lokalt på hver deres maksin ved å kjøre følgende kommando i terminalen (bytt ut <person_1_username> med GitHub-brukernavnet til Person 1 og <repo_name> med navnet på repoet dere velgte i Oppgave 1):
+- Clone repoet lokalt på hver deres maksin ved å kjøre følgende kommando i terminalen (bytt ut <person_1_username> med GitHub-brukernavnet til Person 1 og <repo_name> med navnet på repoet dere velgte i Oppgave 1). Linken kan også finnes ved å trykke på den grønne knappen "Code" i GitHub-repoet:
 
 ```
 git clone https://github.com/<person_1_username>/<repo_name>.git
