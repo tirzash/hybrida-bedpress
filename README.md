@@ -20,7 +20,7 @@ Nå har person 1 laget en kopi/fork av repoet i sin GitHub. Neste steg er at Per
 - Under `Manage Access`, trykk på `Add People`
 - Skriv inn brukernavnet på Person 2 og trykk `Add to this repository`
 
-Nå er alt klart for at dere kan bruke Git til effektivt samarbeid.
+Person 2 skal nå ha fått en mail med invitasjon til å bli collaborator i repoet. Nå er alt klart for at dere kan bruke Git til effektivt samarbeid.
 
 ## Oppgave 2 - Clone repositoret lokalt
 
