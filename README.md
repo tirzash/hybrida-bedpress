@@ -208,7 +208,7 @@ Bytt tilbake til master-branchen:
 git switch master
 ```
 
-Nå kan Person 2 gjøre det samme, men i en ny branch kalt person_2_branch, og legg inn en annen tekst i `dans-paa-bordet.txt`. For eksempel teksten under:
+Nå kan Person 2 følge de samme stegene over, men i en ny branch kalt person_2_branch, og legg inn en annen tekst i `dans-paa-bordet.txt`. For eksempel teksten under:
 
 > Hun e'kke en engel men hun er en blessing
 
