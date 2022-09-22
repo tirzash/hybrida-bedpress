@@ -10,6 +10,7 @@ Gå sammen to og to og start på oppgavene under. Gjør gjerne oppgavene sammen,
 
 - Sjekk at du er logget inn i GitHub og trykk på `fork` øverst i høyre hjørne.
 - På siden som kommer opp, skriv inn et navn for repoet, for eksempel `hybrida-bedpres`
+- Pass på at "Copy the master branch only" er huket av
 - Trykk på `Create fork`
 
 Nå har person 1 laget en kopi/fork av repoet i sin GitHub. Neste steg er at Person 1 gir sin kjære samarbeidspartner tilgang til repoet. Dette gjøres ved å:
@@ -19,14 +20,14 @@ Nå har person 1 laget en kopi/fork av repoet i sin GitHub. Neste steg er at Per
 - Under `Manage Access`, trykk på `Add People`
 - Skriv inn brukernavnet på Person 2 og trykk `Add to this repository`
 
-Nå er alt klart for at dere kan bruke Git til effektivt samarbeid.
+Person 2 skal ha fått en mail med invitasjon til å bli collaborator i repoet. Følg instruksjonene i mailen. Nå er alt klart for at dere kan bruke Git til effektivt samarbeid.
 
 ## Oppgave 2 - Clone repositoret lokalt
 
 **Både Person 1 og Person 2:**
 
 - Åpne terminalen på hver deres maskin og naviger til Desktop.
-- Clone repoet lokalt på hver deres maksin ved å kjøre følgende kommando i terminalen (bytt ut <person_1_username> med GitHub-brukernavnet til Person 1 og <repo_name> med navnet på repoet dere velgte i Oppgave 1):
+- Clone repoet lokalt på hver deres maksin ved å kjøre følgende kommando i terminalen (bytt ut <person_1_username> med GitHub-brukernavnet til Person 1 og <repo_name> med navnet på repoet dere velgte i Oppgave 1). Linken kan også finnes ved å trykke på den grønne knappen "Code" i repoet:
 
 ```
 git clone https://github.com/<person_1_username>/<repo_name>.git
@@ -151,7 +152,7 @@ git push --set-upstream origin nasjonalsang
 Nå kan endringene merges inn i master. Bytt til master-branchen:
 
 ```
-git checkout master
+git switch master
 ```
 
 Merge endringene inn i master:
@@ -207,7 +208,7 @@ Bytt tilbake til master-branchen:
 git switch master
 ```
 
-Nå kan Person 2 gjøre det samme, men i en ny branch kalt person_2_branch, og legg inn en annen tekst i `dans-paa-bordet.txt`. For eksempel teksten under:
+Nå kan Person 2 følge de samme stegene over, men i en ny branch kalt `person_2_branch`, og legg inn en annen tekst i `dans-paa-bordet.txt`. For eksempel teksten under:
 
 > Hun e'kke en engel men hun er en blessing
 
@@ -250,7 +251,7 @@ Aiaiai, merge conflict! Hvordan fikser vi dette?
 Nice, nå kan vi pushe dette til master:
 
 ```
-git add git add dans-paa-bordet.txt
+git add dans-paa-bordet.txt
 ```
 
 ```
