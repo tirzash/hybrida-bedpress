@@ -234,7 +234,7 @@ git merge person_2_branch
 
 Aiaiai, merge conflict! Hvordan fikser vi dette?
 
-Åpne filen ddans-paa-bordet.txt i en valgfri tekst-editor (for eksempel Visual Studio Code, Pycharm, TextEdit eller Notepad). Her ser vi at git har skrevet inn noe rart i filen. Her må dere bestemme hvilken av linjene som skal taes med, og slette den andre (med de tilhørende rare linjene). Etter dette burde filen se ut som dette hvis dere valgte å beholde endringene fra `person_2_branch`:
+Åpne filen dans-paa-bordet.txt i en valgfri tekst-editor (for eksempel Visual Studio Code, Pycharm, TextEdit eller Notepad). Her ser vi at git har skrevet inn noe rart i filen. Her må dere bestemme hvilken av linjene som skal taes med, og slette den andre (med de tilhørende rare linjene). Etter dette burde filen se ut som dette hvis dere valgte å beholde endringene fra `person_2_branch`:
 
 > Mi amor, danser for seg selv
 >
